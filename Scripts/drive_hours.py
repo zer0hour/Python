@@ -1,16 +1,13 @@
 #!/usr/bin/env python3
 
-print('years:')
-years = int(input())
+years = int(input('Years: '))
 if years >= 1:
     years = (365 * years)
 
-print('months:')
-months = int(input())
+months = int(input('Months: '))
 if months >= 1:
     months = (30 * months)
 
-print('days')
-days = int(input())
+days = int(input('Days: '))
 
 print((years + months + days) * 24)
