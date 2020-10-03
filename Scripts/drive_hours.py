@@ -10,4 +10,6 @@ if months >= 1:
 
 days = int(input('Days: '))
 
-print((years + months + days) * 24)
+total = (years + months + days) * 24
+
+print('Total drive hours: ' + str(total))
