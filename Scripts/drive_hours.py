@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 print('years:')
 years = int(input())
 if years >= 1:
